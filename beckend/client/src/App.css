@@ -1,0 +1,16 @@
+html, body,#root,
+.App{
+  overflow-x: hidden!important; 
+  margin: 0 !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  font-family: Roboto, sans-serif!important;
+  text-align: center!important;
+  background-color: #fafafa;
+}
+
