@@ -29,10 +29,10 @@ export default class Loader extends Component {
     }
 
     render() {
-        let { type='Puff', color='#262626', height=100, width = 100, timeout = 3000, boxClassess='ui-loader-box' } = this.props;
+        let { type='Puff', color='#262626', height=100, width = 100, timeout = 3000, boxClassess } = this.props;
 
         return (
-        <div style={{display: this.state.display ? 'flex' : 'none'}} className={boxClassess}>
+        <div style={{display: this.state.display ? 'flex' : 'none'}} className={boxClassess && boxClassess}>
             <ReadyLoader
                 type={type}
                 color={color}

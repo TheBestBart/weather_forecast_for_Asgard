@@ -30,7 +30,7 @@ export const App = props => {
       fetch(POST.getWeatherForWeek,{
         method: 'POST',
         headers: {
-          "Content-Type": "Application/json"
+          "Content-Type": "application/json"
         },
         body: JSON.stringify({ weather: { ...weather } })
       })
@@ -47,7 +47,7 @@ export const App = props => {
       fetch(POST.getMushroomInfo,{
         method: 'POST',
         headers: {
-          "Content-Type": "Application/json"
+          "Content-Type": "application/json"
         },
         body: JSON.stringify({ weekWeather: [ ...arrayOfWeather ] })
       })
@@ -70,7 +70,7 @@ export const App = props => {
       loadMushroomInfo();
       setIsMushroomButtonClicked(false);
     }
-  },[loadWeekWeather, arrayOfWeather,  weather, mushroomInfo]);
+  },[loadWeekWeather, arrayOfWeather,  weather, mushroomInfo, isMushroomButtonClicked, isWeekButtonClicked, loadMushroomInfo]);
 
   return (
     <div className='App'>
@@ -78,7 +78,6 @@ export const App = props => {
         weather
         ? <>
         <Title />
-        
         { 
           Array.isArray(arrayOfWeather) && arrayOfWeather.length 
           ? <>

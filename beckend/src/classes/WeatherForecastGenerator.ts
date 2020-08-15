@@ -34,8 +34,8 @@ export default class WeatherForecastGenerator {
     public getWeatherToday = (yesterdayWeather:number = 0, generateNewDay?: boolean): WeatherForecast => {
         let day: Date = generateNewDay ? new Date(Date.now() + yesterdayWeather) : this.day
         let getYear: number = day.getFullYear();
-        let weather: number = Math.floor(getYear / (day.getMilliseconds() / (day.getDay() === 0 ? 1 : day.getDay())))
-        weather = weather > this.maxTemperature  ? this.maxTemperature / (day.getDay() === 0 ? 1 : day.getDay()) : weather;
+        let weather: number = Math.floor(getYear / (day.getMilliseconds() / (day.getDay() === 0 ? 7 : day.getDay())))
+        weather = weather > this.maxTemperature  ? this.maxTemperature / (day.getDay() === 0 ? 7 : day.getDay()) : weather;
         
         return {
             degree: Math.floor(weather),
