@@ -83,3 +83,7 @@ it gets array of weather data for 7 days called `weekWeather` and return object 
 `statusText`: Information of chance of finding mushroom as string, this is needed to show it in browser <br />
 `theBestDayToMushroomPiking`: Information about the best day to finding mushrooms in string, <br />
 `percent`: Information of chance of finding mushroom in percent as string, <br />
+
+## Algorithm PATH
+
+### weather_forecast_for_Asgard\beckend\src\classes\WeatherForecastGenerator.ts 
