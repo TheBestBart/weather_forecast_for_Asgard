@@ -14,19 +14,19 @@ client part is responsible for communication with the server, sending request or
 ## Technologies 
 
 ## Frontend:
-React,
-React Hooks
-CSS
-HTML
-ES Standards
-JavaScript
+React,<br />
+React Hooks, <br />
+CSS, <br />
+HTML, <br />
+ES Standards, <br />
+JavaScript <br />
 
 ## Backend: 
-Node.js
-Express.js
-Typescript
-modules npm
-JavaScript
+Node.js, <br />
+Express.js, <br />
+Typescript, <br />
+modules npm, <br />
+JavaScript <br />
 
 ## To getting start with App
 firstly, you need to clone this repository to folder in which you want to have it
@@ -65,10 +65,10 @@ The server has three endpoint: <br />
 
 ### `/weather-forecast/today` - GET
 
-It returns object of information of today weather: 
-status - information of sky condition as 0 - 2 number,
-statusText - information of sky condition as string. It is neeeded to display this info as text in browser
-degree - information of degree of weather as number 
+It returns object of information of today weather: <br />
+`status` - information of sky condition as 0 - 2 number, <br />
+`statusText` - information of sky condition as string. It is neeeded to display this info as text in browser <br />
+`degree` - information of degree of weather as number <br />
 
 ### `/weather-forecast/week` - POST
 
@@ -78,8 +78,8 @@ It returns array of seven objects like object that is sending by first endpoint
 
 ### `/weather-forecast/mushroom-info` - POST
 
-it gets array of weather data for 7 days called `weekWeather` and return object of information of mushroom for this week
+it gets array of weather data for 7 days called `weekWeather` and return object of information of mushroom for this week: <br />
 
-statusText: Information of chance of finding mushroom as string, this is needed to show it in browser
-theBestDayToMushroomPiking: Information about the best day to finding mushrooms in string,
-percent: Information of chance of finding mushroom in percent as string, 
+`statusText`: Information of chance of finding mushroom as string, this is needed to show it in browser <br />
+`theBestDayToMushroomPiking`: Information about the best day to finding mushrooms in string, <br />
+`percent`: Information of chance of finding mushroom in percent as string, <br />
