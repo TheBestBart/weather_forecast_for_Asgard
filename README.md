@@ -1,17 +1,19 @@
 # weather_forecast_for_Asgard
 
-##Description
+## Description
+<br />
 App generates weather for Asgard by special algorithm that based on miliseconds and it is created by me. <br />
 It gives us opportunity to generate weather also for week and based on this information you can find out when is the best day to pick mushrooms in the woods next to this city. <br />
 
-##Structure
+## Structure
+<br />
 The Project is built in two parts: <br /> 
 backend part is responsible for all funtionality of the app such as generating weather, calculating the best day to pick mushroom or sending data to client <br />
 client part is responsible for communication with the server, sending request or displaying data in the browser. <br />
 
-##Technologies 
+## Technologies 
 
-####Frontend
+## Frontend:
 React,
 React Hooks
 CSS
@@ -19,14 +21,14 @@ HTML
 ES Standards
 JavaScript
 
-####Backend 
+## Backend: 
 Node.js
 Express.js
 Typescript
 modules npm
 JavaScript
 
-##To getting start with App
+## To getting start with App
 firstly, you need to clone this repository to folder in which you want to have it
 
 ### `git clone`  + repository path
